@@ -8,4 +8,4 @@ else
 	wynik="ERROR"
 fi
 
-watch -t 'echo $(date) status = '$wynik 
+watch -n 3 -t 'echo $(date) status = '$wynik 
